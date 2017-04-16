@@ -1,20 +1,35 @@
 Gaddis p1019-1020 #1-7,13-15, 31-34
 
-Chase Saunders ñ CAS150830
+Chase Saunders ‚Äì CAS150830
 
-1	A throw point is when the program ìthrowsî an exception where a problem occurs, such as in a calculation where a division-by-zero error may result. 
-2	An exception handler is an instruction that manipulates the flow of code when an anomalous or erroneous event occurs that would otherwise disrupt the programís instructions, resulting in a crash. The exception handler attempts to divert control of the program to one of the three keywords (throw/catch/try) to either halt the program at the point of failure with a description of what was the cause of the fault, or to pass the flow of control to a known block of code to ìcatchî the problem.
+1	A throw point is when the program ‚Äúthrows‚Äù an exception where a problem occurs, such as in a calculation where a division-by-zero error may result. 
+
+2	An exception handler is an instruction that manipulates the flow of code when an anomalous or erroneous event occurs that would otherwise disrupt the program‚Äôs instructions, resulting in a crash. The exception handler attempts to divert control of the program to one of the three keywords (throw/catch/try) to either halt the program at the point of failure with a description of what was the cause of the fault, or to pass the flow of control to a known block of code to ‚Äúcatch‚Äù the problem.
+
 3	The try block is an exception handler that is a statement where code is attempted to execute normally, whereas the catch block is a particular exception handler statement that is called depending upon its input arguments to perform a statement that halts the flow of code and results in an error call according to its input parameter.
-4	
-5	
-6	
-7	
 
-13	
-14	
-15	
+4	the calling function for that try block will terminate.
 
-31	
-32	
-33	
-34	
+5	When a exception is thrown, the program becomes unable to return to the throw point, thus, the function that executes the throw statement must terminate. If that function that terminates is called by another function, that function too must terminate, and this process repeats for all the related functions, unraveling the chain of function calls all the way back to the originating try block that threw that exception.
+
+6	the function will try to jump into that function's catch block.
+
+7	this allows the programmer to write only one function for a variety of data types.
+
+
+
+13	throw point
+
+14	try
+
+15	catch
+
+
+
+31	False
+
+32	False
+
+33	True
+
+34	True
