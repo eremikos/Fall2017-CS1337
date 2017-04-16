@@ -1,0 +1,20 @@
+Gaddis p1019-1020 #1-7,13-15, 31-34
+
+Chase Saunders – CAS150830
+
+1	A throw point is when the program “throws” an exception where a problem occurs, such as in a calculation where a division-by-zero error may result. 
+2	An exception handler is an instruction that manipulates the flow of code when an anomalous or erroneous event occurs that would otherwise disrupt the program’s instructions, resulting in a crash. The exception handler attempts to divert control of the program to one of the three keywords (throw/catch/try) to either halt the program at the point of failure with a description of what was the cause of the fault, or to pass the flow of control to a known block of code to “catch” the problem.
+3	The try block is an exception handler that is a statement where code is attempted to execute normally, whereas the catch block is a particular exception handler statement that is called depending upon its input arguments to perform a statement that halts the flow of code and results in an error call according to its input parameter.
+4	
+5	
+6	
+7	
+
+13	
+14	
+15	
+
+31	
+32	
+33	
+34	
